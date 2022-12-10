@@ -3,4 +3,4 @@
 FROM jupyter/scipy-notebook
 
 RUN mamba install --quiet --yes \
-    'altair'
+    'matplotlib==3.6.2'
