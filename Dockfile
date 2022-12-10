@@ -1,3 +1,5 @@
+# Author: Yukun Edward Zhang
+
 FROM jupyter/scipy-notebook
 
 RUN mamba install --quiet --yes \
